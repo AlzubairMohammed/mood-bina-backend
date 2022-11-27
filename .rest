@@ -1,0 +1,22 @@
+GET http://localhost:5000/api/v1/users HTTP/1.1
+
+###
+GET http://localhost:5000/api/v1/sections HTTP/1.1
+
+###
+GET http://localhost:5000/api/v1/subsections HTTP/1.1
+
+###
+GET http://localhost:5000/api/v1/products HTTP/1.1
+
+###
+GET http://localhost:5000/api/v1/auth/me HTTP/1.1
+
+###
+POST http://localhost:5000/api/v1/auth/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "admin1@gmail.com",
+    "password": "1"
+}
